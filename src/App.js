@@ -18,7 +18,7 @@ const App = () => {
   console.log("appJS", data);
   return (
     <div className="App">
-      {/* Add components here  and pass props where appropriate */}
+      
       <SearchBar />
       <PostsPage post={data}/>
     </div>

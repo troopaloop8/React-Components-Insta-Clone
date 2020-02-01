@@ -51,6 +51,13 @@
 }
 .like-number {
   width: 100px;
-  margin: 15px 0px;
-  font-size: 16px;
+  margin: 10px 0px 10px -9px;
+  font-size: 14px;
+}
+
+.fa-heart, .fa-comment {
+  font-size: 24px;
+}
+.buffer {
+  padding: 0 8px 0 3px;
 }

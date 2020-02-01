@@ -16,6 +16,7 @@
 }
 .image-wrapper {
   height: 50px;
+  margin-right: 15%;
 }
 
 .logo-image {
@@ -28,4 +29,22 @@
 
 .social {
   width: 50px;
+}
+
+.fa-user-circle, .fa-compass, .fa-heart {
+  font-size: 24px;
+}
+
+.fa-instagram {
+  font-size: 36px;
+  padding-right: 20px;
+  border-right: 1px solid black;
+  margin-top: 8px;
+}
+
+.instagram-cursive {
+  padding: 13px 10px 0 15px;
+  position: absolute;
+  
+  
 }
