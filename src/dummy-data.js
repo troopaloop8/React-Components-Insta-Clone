@@ -21,6 +21,27 @@ const dummyData = [
         ]
     },
     {
+        username: "non-existant-person",
+        thumbnailUrl: 'https://thispersondoesnotexist.com/image',
+        imageUrl: 'https://thisrentaldoesnotexist.com/img-new/hero.jpg',
+        likes: 232,
+        timestamp: "February 29th 2019, 13:42:40 pm",
+        comments: [
+            {
+                username: "Sybil",
+                text: "Nice Pad!"
+            },
+            {
+                username: "Another Sybil",
+                text: "Looks amazing!"
+            },
+            {
+                username: "Totally not a Sybil",
+                text: "Can't wait to move in!"
+            }
+        ]
+    },
+    {
         username: "twitch",
         thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
         imageUrl: 'https://images.unsplash.com/photo-1566577134770-3d85bb3a9cc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3750&q=80',

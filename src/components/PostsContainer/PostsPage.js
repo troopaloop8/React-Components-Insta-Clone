@@ -10,7 +10,7 @@ const PostsPage = (props) => {
   return (
     <div className="posts-container-wrapper">
       {/* map through data here */
-      props.post.map((item) => (
+      props.data.map((item) => (
         <Post 
         key={item.imageUrl}
         post={item}

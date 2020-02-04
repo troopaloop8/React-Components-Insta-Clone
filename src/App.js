@@ -20,7 +20,7 @@ const App = () => {
     <div className="App">
       
       <SearchBar />
-      <PostsPage post={data}/>
+      <PostsPage data={data}/>
     </div>
   );
 };
